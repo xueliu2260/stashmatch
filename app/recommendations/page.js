@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 const recommendations = [
   {
     name: 'Forest Rib Hat',
@@ -57,16 +59,24 @@ export default function RecommendationsPage() {
               </div>
             </div>
 
-            <div className="rounded-2xl border border-stone-200 bg-white px-4 py-3 text-sm text-stone-600">
-              Based on your cabinet and Ravelry favourites
+            <div className="flex flex-wrap items-center gap-3">
+              <div className="rounded-2xl border border-stone-200 bg-white px-4 py-3 text-sm text-stone-600">
+                Based on your cabinet and Ravelry favourites
+              </div>
+              <Link
+                href="/"
+                className="inline-flex items-center justify-center rounded-full border border-stone-300 bg-white px-4 py-3 text-sm font-semibold text-stone-700 transition hover:bg-stone-50"
+              >
+                Back to Cabinet
+              </Link>
             </div>
           </div>
 
-          <div className="mt-8 grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-3">
+          <div className="mt-8 grid grid-cols-1 gap-5 md:grid-cols-2 xl:grid-cols-3">
             {recommendations.map((item) => (
               <article
                 key={item.name}
-                className="flex h-full flex-col overflow-hidden rounded-[1.5rem] border border-stone-200 bg-white shadow-sm transition hover:-translate-y-0.5 hover:shadow-md"
+                className="flex h-full flex-col overflow-hidden rounded-[1.75rem] border border-stone-200 bg-white shadow-sm transition hover:-translate-y-0.5 hover:shadow-md"
               >
                 <div className="relative aspect-[4/5] w-full overflow-hidden bg-stone-100">
                   {item.imageUrl ? (
@@ -86,7 +96,7 @@ export default function RecommendationsPage() {
                   </div>
                 </div>
 
-                <div className="flex flex-1 flex-col gap-4 p-4 sm:p-5">
+                <div className="flex flex-1 flex-col gap-4 p-5">
                   <div className="space-y-1">
                     <h2 className="text-xl text-stone-950" style={{ fontFamily: 'var(--font-display)' }}>
                       {item.name}

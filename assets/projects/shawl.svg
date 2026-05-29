@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" role="img" aria-label="Triangle Shawl">
+  <rect width="800" height="500" fill="#d5e7dc" />
+  <path d="M400 120l260 260H140z" fill="#4f7d65" />
+  <path d="M400 170l200 200H200z" fill="#e8f1ec" />
+  <text x="400" y="430" text-anchor="middle" font-size="48" font-family="Arial, sans-serif" fill="#243746">Triangle Shawl</text>
+</svg>

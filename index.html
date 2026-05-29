@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yarn Project Planner</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="app">
+      <header class="hero">
+        <h1>Yarn Project Planner</h1>
+        <p>Track your yarn stash and get knitting project ideas that fit your stock.</p>
+      </header>
+
+      <section class="panel">
+        <h2>Add Yarn</h2>
+        <form data-yarn-form class="yarn-form">
+          <label>
+            Yarn name
+            <input name="name" required placeholder="Merino Soft" />
+          </label>
+          <label>
+            Weight
+            <select name="weight" required>
+              <option value="fingering">Fingering</option>
+              <option value="sport">Sport</option>
+              <option value="dk">DK</option>
+              <option value="worsted">Worsted</option>
+              <option value="aran">Aran</option>
+              <option value="bulky">Bulky</option>
+            </select>
+          </label>
+          <label>
+            Yardage per skein
+            <input name="yardage" type="number" min="1" required placeholder="220" />
+          </label>
+          <label>
+            Quantity
+            <input name="quantity" type="number" min="1" required value="1" />
+          </label>
+          <label>
+            Fiber (optional)
+            <input name="fiber" placeholder="Wool" />
+          </label>
+          <label>
+            Brand (optional)
+            <input name="brand" placeholder="Malabrigo" />
+          </label>
+          <label>
+            Color
+            <input name="color" type="color" value="#6a86a8" />
+          </label>
+          <button type="submit" data-submit-yarn>Add Yarn</button>
+          <button type="button" class="secondary" data-cancel-edit hidden>Cancel Edit</button>
+        </form>
+      </section>
+
+      <section class="panel">
+        <h2>Your Yarn Stock</h2>
+        <p class="summary" data-summary></p>
+        <ul class="stock-list" data-stock-list></ul>
+      </section>
+
+      <section class="panel">
+        <h2>Recommended Projects</h2>
+        <ul class="project-list" data-project-list></ul>
+      </section>
+
+    </main>
+
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>

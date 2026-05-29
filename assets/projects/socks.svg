@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" role="img" aria-label="Socks Pair">
+  <rect width="800" height="500" fill="#d9edf2" />
+  <path d="M300 120h90v170c0 50-40 90-90 90h-40v-70h40c20 0 40-20 40-40z" fill="#2f6a7a" />
+  <path d="M500 120h90v170c0 50-40 90-90 90h-40v-70h40c20 0 40-20 40-40z" fill="#2f6a7a" />
+  <text x="400" y="430" text-anchor="middle" font-size="48" font-family="Arial, sans-serif" fill="#243746">Socks (Pair)</text>
+</svg>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" role="img" aria-label="Ribbed Beanie">
+  <rect width="800" height="500" fill="#dce9f0" />
+  <path d="M220 320c0-120 80-200 180-200s180 80 180 200H220z" fill="#445b7a" />
+  <rect x="210" y="300" width="380" height="60" rx="20" fill="#2e4057" />
+  <circle cx="400" cy="110" r="34" fill="#445b7a" />
+  <text x="400" y="430" text-anchor="middle" font-size="48" font-family="Arial, sans-serif" fill="#243746">Ribbed Beanie</text>
+</svg>

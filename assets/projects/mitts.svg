@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" role="img" aria-label="Fingerless Mitts">
+  <rect width="800" height="500" fill="#efe1d4" />
+  <rect x="245" y="150" width="120" height="220" rx="34" fill="#8a5a44" />
+  <rect x="435" y="150" width="120" height="220" rx="34" fill="#8a5a44" />
+  <rect x="270" y="125" width="70" height="50" rx="14" fill="#8a5a44" />
+  <rect x="460" y="125" width="70" height="50" rx="14" fill="#8a5a44" />
+  <text x="400" y="430" text-anchor="middle" font-size="48" font-family="Arial, sans-serif" fill="#243746">Fingerless Mitts</text>
+</svg>
